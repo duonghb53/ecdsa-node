@@ -20,7 +20,7 @@ function Wallet({ address, setAddress, balance, setBalance }) {
 
       <label>
         Wallet Address
-        <input placeholder="Type an address, for example: 0x1" value={address} onChange={onChange}></input>
+        <input placeholder="Type an address, for example: 0x265e9c17727607bf81991f9ad2ffba8c485fb4e4" value={address} onChange={onChange}></input>
       </label>
 
       <div className="balance">Balance: {balance}</div>
